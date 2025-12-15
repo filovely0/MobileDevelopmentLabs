@@ -8,18 +8,18 @@
     <fragment
         android:id="@+id/newsFeedFragment"
         android:name="com.example.messengerapp_eliza.NewsFeedFragment"
-        android:label="News Feed"
+        android:label="Лента"
         tools:layout="@layout/fragment_news_feed" />
 
     <fragment
         android:id="@+id/profileFragment"
         android:name="com.example.messengerapp_eliza.ProfileFragment"
-        android:label="Profile"
+        android:label="Профиль"
         tools:layout="@layout/fragment_profile" />
 
     <fragment
         android:id="@+id/settingsFragment"
         android:name="com.example.messengerapp_eliza.SettingsFragment"
-        android:label="Settings"
+        android:label="Настройки"
         tools:layout="@layout/fragment_settings" />
 </navigation>

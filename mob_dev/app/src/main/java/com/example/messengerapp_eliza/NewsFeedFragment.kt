@@ -1,4 +1,4 @@
-package com.example.messengerapp_eliza
+package com.example.messengerapp_eliza // Или твой пакет
 
 import android.os.Bundle
 import android.util.Log
@@ -18,15 +18,19 @@ class NewsFeedFragment : Fragment() {
         Log.d("NewsFeedFragment", "onCreate called")
     }
 
-    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
+    override fun onCreateView(
+        inflater: LayoutInflater, container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View {
         _binding = FragmentNewsFeedBinding.inflate(inflater, container, false)
-        binding.textView.text = "This is a placeholder for the News Feed."
+
         return binding.root
     }
 
     override fun onDestroyView() {
         super.onDestroyView()
         _binding = null
+        Log.d("NewsFeedFragment", "onDestroyView called")
     }
 
     override fun onDestroy() {

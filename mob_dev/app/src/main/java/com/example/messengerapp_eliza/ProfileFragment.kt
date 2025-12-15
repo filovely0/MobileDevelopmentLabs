@@ -20,8 +20,8 @@ class ProfileFragment : Fragment() {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
         _binding = FragmentProfileBinding.inflate(inflater, container, false)
-        binding.nameText.text = "User Name: John Doe"
-        binding.emailText.text = "Email: john@example.com"
+        binding.nameText.text = "User Name: Строганова Елизавета"
+        binding.emailText.text = "Email: elizavetatsroganova@gmail.com"
         return binding.root
     }
 
